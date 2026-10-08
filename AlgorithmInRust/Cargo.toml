@@ -1,0 +1,24 @@
+[package]
+name = "AlgorithmInRust"
+version = "0.1.0"
+edition = "2024"
+
+
+[[bin]]
+name = "pq"                     # O nome que você vai usar para executar
+path = "src/bin/ds/queue/pq/BasicPQ.rs" # O caminho exato até o arquivo main
+
+
+[[bin]]
+name = "basic"
+path = "src/bin/ds/stack/basic/BasicStack.rs"
+
+[[bin]]
+name = "iflet"
+path = "src/bin/byexample/flow/iflet/IfLet.rs"
+
+[[bin]]
+name = "flowmatch"
+path = "src/bin/byexample/flow/match/FlowMatch.rs"
+
+[dependencies]
